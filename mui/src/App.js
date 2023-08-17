@@ -1,18 +1,26 @@
-import TestAPi from "./TestApi";
+// import TestAPi from "./TestApi";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
 import DataTable from "./DataGrid";
+
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
 
 function App() {
   return (
     <>
-    {/* <TestAPi /> */}
-    <DataTable />
+      <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        <DataTable />
+      </ThemeProvider>
     </>
   );
 }
 
 export default App;
-
-
 
 // ex API
 // http://universities.hipolabs.com/search?country=Belgium
