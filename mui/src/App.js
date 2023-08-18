@@ -21,9 +21,7 @@ function App() {
       <div className="App">
         <ThemeProvider theme={darkTheme}>
           <CssBaseline />
-          <label>Dark Mode</label>
-          <Switch checked={theme} color="success" onChange={handleChange} />
-          <NavBar />
+          <NavBar checked={theme} onChange={handleChange} theme={darkTheme} />
           <DataTable />
         </ThemeProvider>
       </div>
