@@ -1,21 +1,18 @@
-// import TestAPi from "./TestApi";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
-import DataTable from "./DataGrid";
-
-const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  },
-});
+import { useTheme, ThemeProvider, createTheme } from "@mui/material/styles";
+import DataTable from "./DataTable";
+import NavBar from "./NavBar";
+import DarkMode from "./DarkMode";
 
 function App() {
   return (
     <>
-      <ThemeProvider theme={darkTheme}>
-        <CssBaseline />
-        <DataTable />
-      </ThemeProvider>
+      {/* <ColorModeContext.Provider value={colorMode}>
+        <ThemeProvider theme={theme}> */}
+      <NavBar />
+      <DarkMode />
+      <DataTable />
+      {/* </ThemeProvider>
+      </ColorModeContext.Provider> */}
     </>
   );
 }
@@ -28,4 +25,4 @@ export default App;
 
 //install npm
 // install base
-// install npm install @mui/x-data-grid
+//  npm install @mui/x-data-grid
