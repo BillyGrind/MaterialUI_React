@@ -8,7 +8,7 @@ Ce projet vise à explorer les bases de React et à intégrer le framework Mater
 
 - Affichage d'un tableau de données à partir de l'API des universités en Belgique.
 - Utilisation de Material-UI pour concevoir l'interface utilisateur, garantissant un design élégant et réactif.
-- Implémentation d'un commutateur de mode sombre pour améliorer l'expérience utilisateur dans des environnements à faible luminosité.
+- Implémentation d'un mode sombre pour améliorer l'expérience utilisateur dans des environnements à faible luminosité.
 
 ## Captures d'écran
 
