@@ -46,7 +46,7 @@ Assure-toi d'avoir Node.js et npm installés localement.
 
 ## Contributeurs
 
-- Ton Nom [@BillyGrind](https://github.com/BillyGrind)
+[@BillyGrind](https://github.com/BillyGrind)
 
 N'hésite pas à contribuer en ouvrant des pull requests pour des améliorations, des corrections de bugs, etc.
 
